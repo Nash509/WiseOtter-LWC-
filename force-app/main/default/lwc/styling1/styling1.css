@@ -1,0 +1,5 @@
+@import '/Users/avinash/WiseOtter/force-app/main/default/lwc/cssLibrary/cssLibrary.css';
+.css{
+    width: 60%;
+    background-color: blue;
+}

@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="String Comparison">
+        <div class="slds-m-around_medium">
+            <lightning-input label="String 1" value={string1} onchange={handleInputChange}></lightning-input>
+            <lightning-input label="String 2" value={string2} onchange={handleInputChange}></lightning-input>
+            <lightning-button label="Submit" onclick={submitStrings}></lightning-button>
+        </div>
+        <div class="slds-m-around_medium">
+            <p>Are the strings equal? {areStringsEqual}</p>
+        </div>
+    </lightning-card>
+</template>

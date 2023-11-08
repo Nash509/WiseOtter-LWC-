@@ -1,0 +1,21 @@
+<template>
+        <lightning-card>
+                <div class="slds-var-s-around_small">
+                    <lightning-input type="text" label="Enter the progress" onkeyup={handlePercentage} value={progress}></lightning-input>
+                    <div class="slds-var-m-bottom_medium">  </div>
+                    <c-p2c-progress-bar progress-value={progress}> </c-p2c-progress-bar>
+                </div>
+        </lightning-card>
+        <div class="slds-var-m-bottom_medium">  </div>
+        <lightning-button variant="brand" label="Brand" title="Reset slider" onclick={seep} class="slds-m-left_x-small"></lightning-button>
+        <c-p2c-slider></c-p2c-slider>
+        <div class="slds-var-m-bottom_medium">  </div>
+            <c-p2c-child 
+            message="burr burr" 
+            namam="bill burr"
+            mukkaperu = "ThokkaMukka"
+            ankya = 20
+                > </c-p2c-child>
+        <div class="slds-var-m-bottom_medium">  </div>
+            <c-corusel-child-comp coresol-details={coresolData} ></c-corusel-child-comp>
+</template>
